@@ -11,5 +11,5 @@ def list_dwarves(array)
     output_line = "#{index+1}. #{element}"
     list_dwarves_array << output_line
   end
-  list_dwarves_array
+  puts list_dwarves_array
 end
